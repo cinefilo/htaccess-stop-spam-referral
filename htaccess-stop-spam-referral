@@ -8,6 +8,6 @@ RewriteCond %{HTTP_REFERER} blackhatworth\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} 7makemoneyonline\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} best-seo-solution\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} best-seo-offer\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} o-o-6-o-o\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} semalt\.com [NC]
 RewriteRule .* - [F]
-
