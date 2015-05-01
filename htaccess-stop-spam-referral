@@ -1,5 +1,12 @@
 
 ## Block/Banned Spam Referral/Bot
+RewriteCond %{HTTP_REFERER} webmaster-traffic\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} Get-Free-Traffic-Now\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} buy-cheap-online\.info [NC,OR]
+RewriteCond %{HTTP_REFERER} theguardlan\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} hol\.es [NC,OR]
+RewriteCond %{HTTP_REFERER} free-share-buttons\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} buttons-for-your-website\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} buttons-for-website\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} seoanalyses\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} lumb\.co [NC,OR]
